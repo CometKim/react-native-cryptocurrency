@@ -1,5 +1,7 @@
 import { connect } from 'react-redux'
 
+import { fetchCoinData } from 'actions'
+
 import Container from './crypto-card-list'
 
 function mapStateToProps(state) {
@@ -8,4 +10,4 @@ function mapStateToProps(state) {
     }
 }
 
-export default connect(mapStateToProps)(Container)
+export default connect(mapStateToProps, { fetchCoinData })(Container)
