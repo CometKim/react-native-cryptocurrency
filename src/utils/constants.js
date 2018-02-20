@@ -1,3 +1,5 @@
+// @flow
+
 export const apiBaseUrl = 'https://api.coinmarketcap.com'
 
 export const coinIcons = {

@@ -1,15 +1,24 @@
+// @flow
+
 import React from 'react'
 import { Text } from 'react-native'
 import styled from 'styled-components/native'
 
 import { coinIcons } from 'utils/constants'
 
+export type CryptoCardProps = {
+    symbol: $Keys<typeof coinIcons>,
+    price_usd: string,
+    percent_change_7d: string,
+    percent_change_24h: string,
+}
+
 export default ({
     symbol,
     price_usd,
     percent_change_24h,
     percent_change_7d,
-}) => (
+}: CryptoCardProps) => (
     <Container>
         <IconImage source={{ uri: coinIcons[symbol] }} />
         <Text>{symbol}</Text>
