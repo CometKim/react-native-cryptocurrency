@@ -4,11 +4,11 @@
     "private": true,
     "devDependencies": {
         "babel-plugin-module-resolver": "^3.1.0",
-        "flow-bin": "0.56.0",
-        "jest-expo": "25.1.0",
-        "prettier": "1.10.2",
-        "react-native-scripts": "1.11.1",
-        "react-test-renderer": "16.2.0",
+        "flow-bin": "0.94.0",
+        "jest-expo": "32.0.0",
+        "prettier": "1.16.4",
+        "react-native-scripts": "2.0.1",
+        "react-test-renderer": "16.8.4",
         "redux-logger": "^3.0.6",
         "remote-redux-devtools": "^0.5.12",
         "remotedev-rn-debugger": "^0.8.3"
@@ -31,14 +31,14 @@
     },
     "dependencies": {
         "axios": "^0.18.0",
-        "expo": "^25.0.0",
-        "react": "16.2.0",
-        "react-native": "0.53.3",
-        "react-native-loading-spinner-overlay": "^0.5.2",
-        "react-redux": "^5.0.7",
-        "redux": "^3.7.2",
-        "redux-promise": "^0.5.3",
+        "expo": "^32.0.6",
+        "react": "16.8.4",
+        "react-native": "0.58.6",
+        "react-native-loading-spinner-overlay": "^1.0.1",
+        "react-redux": "^6.0.1",
+        "redux": "^4.0.1",
+        "redux-promise": "^0.6.0",
         "redux-thunk": "^2.2.0",
-        "styled-components": "^3.1.6"
+        "styled-components": "^4.1.3"
     }
 }
